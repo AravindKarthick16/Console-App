@@ -1,0 +1,21 @@
+C:\.net\ide\vs\slna\prja\bin\Debug\prja.exe.config
+C:\.net\ide\vs\slna\prja\bin\Debug\prja.exe
+C:\.net\ide\vs\slna\prja\bin\Debug\prja.pdb
+C:\.net\ide\vs\slna\prja\obj\Debug\prja.csprojAssemblyReference.cache
+C:\.net\ide\vs\slna\prja\obj\Debug\prja.csproj.CoreCompileInputs.cache
+C:\.net\ide\vs\slna\prja\obj\Debug\prja.exe
+C:\.net\ide\vs\slna\prja\obj\Debug\prja.pdb
+C:\Class\.net\ide\vs\slna\prja\bin\Debug\prja.exe.config
+C:\Class\.net\ide\vs\slna\prja\bin\Debug\prja.exe
+C:\Class\.net\ide\vs\slna\prja\bin\Debug\prja.pdb
+C:\Class\.net\ide\vs\slna\prja\obj\Debug\prja.csprojAssemblyReference.cache
+C:\Class\.net\ide\vs\slna\prja\obj\Debug\prja.csproj.CoreCompileInputs.cache
+C:\Class\.net\ide\vs\slna\prja\obj\Debug\prja.exe
+C:\Class\.net\ide\vs\slna\prja\obj\Debug\prja.pdb
+C:\.net programs\visual studio\slna\prja\bin\Debug\prja.exe.config
+C:\.net programs\visual studio\slna\prja\bin\Debug\prja.exe
+C:\.net programs\visual studio\slna\prja\bin\Debug\prja.pdb
+C:\.net programs\visual studio\slna\prja\obj\Debug\prja.csprojAssemblyReference.cache
+C:\.net programs\visual studio\slna\prja\obj\Debug\prja.csproj.CoreCompileInputs.cache
+C:\.net programs\visual studio\slna\prja\obj\Debug\prja.exe
+C:\.net programs\visual studio\slna\prja\obj\Debug\prja.pdb

@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BB734ACC-03D6-4417-8E37-AE6F11C0F8E3}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>prja</RootNamespace>
+    <AssemblyName>prja</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>prja.Exceptionhandling.CLSEHaa</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="accessspecifier\CLSASab.cs" />
+    <Compile Include="accessspecifier\CLSASbb.cs" />
+    <Compile Include="accessspecifier\CLSAScb.cs" />
+    <Compile Include="accessspecifier\CLSASdc.cs" />
+    <Compile Include="accessspecifier\CLSASec.cs" />
+    <Compile Include="arraylist\CLSaddaa.cs" />
+    <Compile Include="arraylist\CLSaddrangeaa.cs" />
+    <Compile Include="arraylist\CLSgetrangeaa.cs" />
+    <Compile Include="arraylist\CLSremoverangeaa.cs" />
+    <Compile Include="asoperator\CLSasaa.cs" />
+    <Compile Include="BitAray\CLSbitarrayaa.cs" />
+    <Compile Include="BitAray\CLSbitarrayab.cs" />
+    <Compile Include="Checked\CLSChkUnChkab.cs" />
+    <Compile Include="Checked\CLSChkUnChkac.cs" />
+    <Compile Include="CLSDefaa.cs" />
+    <Compile Include="CLSANaa.cs" />
+    <Compile Include="CLSCBVCBRaa.cs" />
+    <Compile Include="CLSOUTpmaa.cs" />
+    <Compile Include="Exceptionhandling\CLSEHaa.cs" />
+    <Compile Include="Exceptionhandling\CLSEHb.cs" />
+    <Compile Include="Exceptionhandling\CLSEHba.cs" />
+    <Compile Include="Exceptionhandling\CLSEHc.cs" />
+    <Compile Include="Getsetproperties\CLSpropaaER.cs" />
+    <Compile Include="Getsetproperties\CLSPropSalTax.cs" />
+    <Compile Include="uadonet\CLSSSCnStr.cs" />
+    <Compile Include="uadonet\CLSSSDelaa.cs" />
+    <Compile Include="uadonet\CLSSSelaa.cs" />
+    <Compile Include="uadonet\CLSSSInsaa.cs" />
+    <Compile Include="uadonet\CLSSSSelab.cs" />
+    <Compile Include="uadonet\CLSSSSelac.cs" />
+    <Compile Include="uadonet\CLSSSSelad.cs" />
+    <Compile Include="uadonet\CLSSSUpdaa.cs" />
+    <Compile Include="uPartialclass\CLSPCMathaa.cs" />
+    <Compile Include="ExtensionMethod\CLSEMaa.cs" />
+    <Compile Include="MDLaa\CLSEAaa.cs" />
+    <Compile Include="MDLaa\CLSEBaa.cs" />
+    <Compile Include="EBaa.cs" />
+    <Compile Include="EHaa.cs" />
+    <Compile Include="ERaa.cs" />
+    <Compile Include="ERab.cs" />
+    <Compile Include="IFaa.cs" />
+    <Compile Include="inheritance\CLSHBIae.cs" />
+    <Compile Include="inheritance\CLSHIad.cs" />
+    <Compile Include="inheritance\CLSMIab.cs" />
+    <Compile Include="inheritance\CLSMLIad.cs" />
+    <Compile Include="inheritance\CLSSIac.cs" />
+    <Compile Include="MDLaa\CLSSTaa.cs" />
+    <Compile Include="MDLaa\CLSERaa.cs" />
+    <Compile Include="MDLaa\Home.cs" />
+    <Compile Include="OSaa.cs" />
+    <Compile Include="OSab.cs" />
+    <Compile Include="OS.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sealed class\CLSSEAaa.cs" />
+    <Compile Include="SPaa.cs" />
+    <Compile Include="SPab.cs" />
+    <Compile Include="SPac.cs" />
+    <Compile Include="STaa.cs" />
+    <Compile Include="storageclause\CLSSCab.cs" />
+    <Compile Include="TCaa.cs" />
+    <Compile Include="TCab.cs" />
+    <Compile Include="UDCLMath.cs" />
+    <Compile Include="uPartialclass\CLSPCMathab.cs" />
+    <Compile Include="uPartialclass\CLSPCMathac.cs" />
+    <Compile Include="Checked\CLSChkUnChkaa.cs" />
+    <Compile Include="Var\CLSvaraa.cs" />
+    <Compile Include="Var\CLSvarab.cs" />
+    <Compile Include="Var\CLSvarac.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
